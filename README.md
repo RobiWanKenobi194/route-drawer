@@ -50,4 +50,4 @@ MIT *(oder nach Wahl anpassen)*
 
 ## Beitrag
 
-Pull Requests sind willkommen! Bei größeren Änderungen bitte vorher ein Issue eröffnen, um das Vorgehen zu besprechen.
+Dies ist ein privates Projekt, aktuell keine externen Beiträge
