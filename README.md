@@ -17,8 +17,8 @@ Zeichne Fahrradrouten direkt auf einer interaktiven Karte und exportiere sie als
 ## Tech Stack
 
 - HTML / CSS / JavaScript
-- Kartenbibliothek: [Leaflet](https://leafletjs.com/) *(oder Mapbox GL JS – bitte anpassen)*
-- GPX-Generierung: [togpx](https://github.com/tyrasd/togpx) *(oder eigene Implementierung)*
+- Kartenbibliothek: [Leaflet](https://leafletjs.com/) 
+- GPX-Generierung: [togpx](https://github.com/tyrasd/togpx) 
 
 ## Installation
 
@@ -37,16 +37,14 @@ npm start
 4. Auf **„Als GPX exportieren"** klicken
 5. Generierte `.gpx`-Datei in Strava, Komoot o. ä. importieren
 
+6. Bis zu 5 Routen vorab speichern, bevor export
+
 ## Roadmap
 
 - [ ] Höhenprofil anzeigen
-- [ ] Routen speichern/laden
+- [✅] Routen speichern/laden
 - [ ] Mehrere Kartenanbieter zur Auswahl
 - [ ] Mobile-optimierte Ansicht
-
-## Lizenz
-
-MIT *(oder nach Wahl anpassen)*
 
 ## Beitrag
 
