@@ -24,7 +24,7 @@ Zeichne Fahrradrouten direkt auf einer interaktiven Karte und exportiere sie als
 
 ```bash
 git clone https://github.com/RobiWanKenobi194/route-drawer.git
-cd routedraw
+cd route-drawer
 npm install
 npm start
 ```
