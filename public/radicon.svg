@@ -1,0 +1,36 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameFade" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="88" y2="0">
+      <stop offset="0%" stop-color="#333A3F"/>
+      <stop offset="70%" stop-color="#333A3F"/>
+      <stop offset="100%" stop-color="#EFC24A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Route (korallen-orange) -->
+  <g fill="none" stroke="#FF6A45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M14,50 C26,30 34,58 50,48" />
+  </g>
+  <!-- Start-Pin -->
+  <path d="M5,29 C5,24.05 9.05,20 14,20 C18.95,20 23,24.05 23,29 C23,37.1 15.35,41.6 14,50 C12.65,41.6 5,37.1 5,29 Z" fill="#FF6A45" />
+
+  <!-- Gravelbike-Rahmen (Anthrazit -> gelber Fade) -->
+  <g fill="none" stroke="url(#frameFade)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44,47 L58,45" />
+    <path d="M50,48 L58,88" />
+    <path d="M58,88 L32,88" />
+    <path d="M50,48 L32,88" />
+    <path d="M58,88 L82,45" />
+    <path d="M82,45 Q83,68 88,88" />
+    <path d="M50,48 L82,45" />
+    <path d="M82,45 L76,40" />
+    <path d="M76,40 Q64,40 66,52" />
+  </g>
+  <circle cx="58" cy="88" r="3.2" fill="url(#frameFade)" />
+
+  <!-- Räder (dicker fuer Gravel-Reifen-Look) -->
+  <g fill="none" stroke="#333A3F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="88" r="17" />
+    <circle cx="88" cy="88" r="17" />
+  </g>
+</svg>
